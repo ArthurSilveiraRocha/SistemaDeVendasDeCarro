@@ -1,4 +1,3 @@
---MAIN--
 from classe import Mercado, Cliente
 
 produtos = ['batata', 'queijo', 'alface', 'arroz', 'feijão']
@@ -9,7 +8,6 @@ M = Mercado('Angeloni', 3247836582, "Endereco Aqui", produtos)
 M.comprar()
 
 
---CLASSE--
 class Mercado():
     def __init__(self, nome, cnpj, endereco, produtos = []):
         self.nome = nome
